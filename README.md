@@ -27,8 +27,8 @@ ExternalFilters = ({Enabled=YES;LogLevel=5;Name=SMIME;ProgramName="/usr/bin/perl
     "SIGN SMIME",
     (
       (Source, in, "trusted,authenticated"),
-      (Security, "not in", "*encrypted*,*signed*"),
-      ("Any Route", is, "SMTP*")
+      (Security, "not in", "\*encrypted\*,\*signed\*"),
+      ("Any Route", is, "SMTP\*")
     ),
     ((ExternalFilter, SMIME))
   )
